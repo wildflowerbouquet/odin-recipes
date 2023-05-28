@@ -1,0 +1,16 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title, .subtitle {
+    color: darkseagreen;
+    font-style: bold;
+}
+
+.title, .recipes {
+    text-align: center;
+}
+
+a {
+    color: darkcyan;
+}
