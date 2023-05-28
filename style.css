@@ -2,6 +2,32 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*BOXES*/
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+.page {
+    background-color: antiquewhite;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.recipe {
+    background-color: #fdf7ef;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*TEXT*/
+
 .title, .subtitle {
     color: darkseagreen;
     font-style: bold;
